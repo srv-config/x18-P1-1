@@ -26,6 +26,7 @@
 //		~ 11: Gun Crusher
 //		~ 12: Light Wizard
 //		~ 13: Lemuria Mage
+//		~ 14: Illusion Knight
 //
 // ### StatSpecialize::Class::Option ###
 //	StatType: Type of statistic to apply rule to
@@ -125,5 +126,9 @@
 		<Option StatType="2" Index="6" StatLimit_1="1500" StatVal_1="10" StatLimit_2="2000" StatVal_2="30" StatLimit_3="3000" StatVal_3="45" StatLimit_4="-1" StatVal_4="-1" StatLimit_5="-1" StatVal_5="-1" />
 		<Option StatType="2" Index="7" StatLimit_1="1500" StatVal_1="10" StatLimit_2="2000" StatVal_2="30" StatLimit_3="3000" StatVal_3="45" StatLimit_4="-1" StatVal_4="-1" StatLimit_5="-1" StatVal_5="-1" />
 		<Option StatType="4" Index="9" StatLimit_1="1500" StatVal_1="10" StatLimit_2="2000" StatVal_2="30" StatLimit_3="3000" StatVal_3="45" StatLimit_4="-1" StatVal_4="-1" StatLimit_5="-1" StatVal_5="-1" />
+	</Class>
+	<Class ID="14"> <!-- Illusion Knight -->
+		<Option StatType="2" Index="1" StatLimit_1="1500" StatVal_1="10" StatLimit_2="2000" StatVal_2="30" StatLimit_3="3000" StatVal_3="45" StatLimit_4="-1" StatVal_4="-1" StatLimit_5="-1" StatVal_5="-1" />
+		<Option StatType="2" Index="4" StatLimit_1="1500" StatVal_1="10" StatLimit_2="2000" StatVal_2="30" StatLimit_3="3000" StatVal_3="45" StatLimit_4="-1" StatVal_4="-1" StatLimit_5="-1" StatVal_5="-1" />
 	</Class>
 </StatSpecialize>

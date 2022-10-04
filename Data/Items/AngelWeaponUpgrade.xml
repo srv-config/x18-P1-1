@@ -43,5 +43,6 @@
 		<Item NeedCat="5"  NeedIndex="10"  ResultCat="5"  ResultIndex="49" /> <!-- Divine Staff of Archangel ~>  Blessed Divine Arch Staff -->
 		<Item NeedCat="5"  NeedIndex="36"  ResultCat="5"  ResultIndex="50" /> <!-- Divine Stick of the Archangel ~> Blessed Divine Arch Stick -->
 		<Item NeedCat="5"  NeedIndex="93"  ResultCat="5"  ResultIndex="94" /> <!-- Archangel's Absolute Orb ~> Blessed Archangel's Absolute Orb -->
+		<Item NeedCat="0"  NeedIndex="113"  ResultCat="0"  ResultIndex="114" /> <!-- Archangel's Absolute Blade ~> Blessed Archangel's Absolute Blade -->
 	</Upgrade>
 </ArchangelWeapon>

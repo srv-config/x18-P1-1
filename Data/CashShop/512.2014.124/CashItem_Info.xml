@@ -3,7 +3,7 @@
 // ============================================================
 // == INTERNATIONAL GAMING CENTER NETWORK
 // == www.igcn.mu
-// == (C) 2019 IGC-Network (R)
+// == (C) 2022 IGC-Network (R)
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // == File is a part of IGCN Group MuOnline Server files.
 // ============================================================
@@ -14,9 +14,9 @@
 //	Cat: Category of an item, refer to ItemList.xml
 //	Index: Index of an item, refer to ItemList.xml
 //	Level: Level of an item, 0-15
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // For VIP Cards (e.g. Gold Channel Ticket) the Level attribute is a VIP Type:
-//		0: No-VIP
+//		0: Extends existing VIP period without changing VIP type
 //		1: Bronze
 //		2: Silver
 //		3: Gold
@@ -25,7 +25,7 @@
 //
 // 	VIP Card (Gold Channel Ticket) with Level set to 0 will only extend period of current VIP status but will not set it
 // 	VIP Card (Gold Channel Ticket) with Level 1-4 or other will set specified VIP Type and extend subscription period
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
 //	Durability: Durability of an item, 0-255
 //	Skill: Defines whether item comes with skill or not, 0/1
@@ -39,6 +39,7 @@
 //		5: +20
 //		6: +24
 //		7: +28
+//
 //	Exc:
 //		Excellent Options:
 //			-1: No exc option
@@ -62,14 +63,17 @@
 //		6: Second Set type (+5 Stamina)
 //		9: First Set type (+10 Stamina)
 //		10: Second Set type (+10 Stamina)
+//
 //	SocketCount: Defines a socket count for socket items or slots count for Pentagram items
 //	SocketInfo: Defines a value of option ID to store at specific socket, used to configure socket, graded, guardian (and other) options stored on socket slots. Values used within the attribute are final values as stored in item data struct in database, requires ToolKit Premium to configure
 //	Element: Defines an element type for Elemental Items: 0: None, 1: Fire, 2: Water, 3: Earth, 4: Wind, 5: Darkness, NOTE: Errtels are not supported
 //	Type:
-//		1: Seal/Scroll
-//		2: Pet/Item with Expiry Date
+//		0: None
+//		1: Seal/Scroll that are NOT being activated from inventory item, e.g. Scroll of Quickness
+//		2: Pet/Item/Buff with (usually with expiry date) that are being activated from inventory item, e.g. Oak Charm
 //		3: Character Card
-//		4: VIP Card
+//		4: VIP (Golden Channel) Card
+//
 // Duration: Defines a duration of item effect or item expiration date, expression of the value depends on configuration of item type
 //		Type 1: Minutes
 //		Type 2: Minutes
@@ -777,16 +781,16 @@
 	<Item GUID="615" ID="705" Cat="13" Index="43" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="1" Duration="43200" Description="[+GP_EVENT] Seal of Ascension_30 Day" />
 	<Item GUID="616" ID="706" Cat="13" Index="93" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="1" Duration="10080" Description="[+GP_EVENT] Master Seal of Ascension_7 Day" />
 	<Item GUID="617" ID="707" Cat="13" Index="93" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="1" Duration="43200" Description="[+GP_EVENT] Master Seal of Ascension_30 Day" />
-	<Item GUID="618" ID="708" Cat="13" Index="128" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="1" Duration="10080" Description="[+GP_EVENT] Statue of Hawk 7 Day" />
-	<Item GUID="619" ID="709" Cat="13" Index="128" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="1" Duration="43200" Description="[+GP_EVENT] Statue of Hawk 30 Day" />
-	<Item GUID="620" ID="710" Cat="13" Index="129" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="1" Duration="10080" Description="[+GP_EVENT] Statue of Goral 7 Day" />
-	<Item GUID="621" ID="711" Cat="13" Index="129" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="1" Duration="43200" Description="[+GP_EVENT] Statue of Goral 30 Day" />
-	<Item GUID="622" ID="712" Cat="13" Index="130" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="1" Duration="10080" Description="[+GP_EVENT] Oak Charm 7 Day" />
-	<Item GUID="623" ID="713" Cat="13" Index="130" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="1" Duration="43200" Description="[+GP_EVENT] Oak Charm 30 Day" />
-	<Item GUID="624" ID="714" Cat="13" Index="132" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="1" Duration="10080" Description="[+GP_EVENT] Golden Oak Charm 7 Day" />
-	<Item GUID="625" ID="715" Cat="13" Index="132" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="1" Duration="43200" Description="[+GP_EVENT] Golden Oak Charm 30 Day" />
-	<Item GUID="626" ID="716" Cat="13" Index="134" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="1" Duration="10080" Description="[+GP_EVENT] Worn Horseshoe 7 Day" />
-	<Item GUID="627" ID="717" Cat="13" Index="134" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="1" Duration="43200" Description="[+GP_EVENT] Worn Horseshoe 30 Day" />
+	<Item GUID="618" ID="708" Cat="13" Index="128" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="2" Duration="10080" Description="[+GP_EVENT] Statue of Hawk 7 Day" />
+	<Item GUID="619" ID="709" Cat="13" Index="128" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="2" Duration="43200" Description="[+GP_EVENT] Statue of Hawk 30 Day" />
+	<Item GUID="620" ID="710" Cat="13" Index="129" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="2" Duration="10080" Description="[+GP_EVENT] Statue of Goral 7 Day" />
+	<Item GUID="621" ID="711" Cat="13" Index="129" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="2" Duration="43200" Description="[+GP_EVENT] Statue of Goral 30 Day" />
+	<Item GUID="622" ID="712" Cat="13" Index="130" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="2" Duration="10080" Description="[+GP_EVENT] Oak Charm 7 Day" />
+	<Item GUID="623" ID="713" Cat="13" Index="130" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="2" Duration="43200" Description="[+GP_EVENT] Oak Charm 30 Day" />
+	<Item GUID="624" ID="714" Cat="13" Index="132" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="2" Duration="10080" Description="[+GP_EVENT] Golden Oak Charm 7 Day" />
+	<Item GUID="625" ID="715" Cat="13" Index="132" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="2" Duration="43200" Description="[+GP_EVENT] Golden Oak Charm 30 Day" />
+	<Item GUID="626" ID="716" Cat="13" Index="134" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="2" Duration="10080" Description="[+GP_EVENT] Worn Horseshoe 7 Day" />
+	<Item GUID="627" ID="717" Cat="13" Index="134" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="2" Duration="43200" Description="[+GP_EVENT] Worn Horseshoe 30 Day" />
 	<Item GUID="628" ID="718" Cat="12" Index="135" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="0" Duration="0" Description="Rage Fighters Small Wing" />
 	<Item GUID="629" ID="719" Cat="14" Index="120" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="0" Duration="0" Description="100000 Goblin Point" />
 	<Item GUID="893" ID="1094" Cat="13" Index="66" Level="0" Durability="0" Skill="0" Luck="0" Option="0" Exc="-1" Set="0" SocketCount="0" SocketInfo="-1;-1;-1;-1;-1" Element="0" Type="0" Duration="0" Description="Invitation Ticket to Santa Village" />

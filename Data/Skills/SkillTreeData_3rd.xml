@@ -886,37 +886,37 @@
 			<Skill Index="8" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="303" ValueType="0" Name="Automatic Mana Recovery Increase" />
 			<Skill Index="9" ReqMinPoint="1" MaxPoint="20" ParentSkill1="300" ParentSkill2="0" MagicNumber="305" ValueType="0" Name="Durability Reduction (2)" />
 			<Skill Index="10" ReqMinPoint="1" MaxPoint="20" ParentSkill1="302" ParentSkill2="0" MagicNumber="306" ValueType="0" Name="SD Recovery Speed Increase" />
-			<Skill Index="12" ReqMinPoint="1" MaxPoint="20" ParentSkill1="303" ParentSkill2="0" MagicNumber="307" ValueType="0" Name="" />
-			<Skill Index="14" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="309" ValueType="0" Name="" />
-			<Skill Index="15" ReqMinPoint="1" MaxPoint="10" ParentSkill1="0" ParentSkill2="0" MagicNumber="746" ValueType="0" Name="" />
-			<Skill Index="16" ReqMinPoint="1" MaxPoint="20" ParentSkill1="307" ParentSkill2="0" MagicNumber="310" ValueType="0" Name="" />
-			<Skill Index="17" ReqMinPoint="1" MaxPoint="20" ParentSkill1="305" ParentSkill2="0" MagicNumber="312" ValueType="0" Name="" />
-			<Skill Index="18" ReqMinPoint="1" MaxPoint="20" ParentSkill1="309" ParentSkill2="0" MagicNumber="313" ValueType="0" Name="" />
-			<Skill Index="23" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="315" ValueType="0" Name="" />
-			<Skill Index="24" ReqMinPoint="1" MaxPoint="20" ParentSkill1="315" ParentSkill2="0" MagicNumber="316" ValueType="0" Name="" />
-			<Skill Index="25" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="317" ValueType="0" Name="" />
-			<Skill Index="26" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="318" ValueType="0" Name="" />
-			<Skill Index="27" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="319" ValueType="0" Name="" />
-			<Skill Index="28" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="320" ValueType="0" Name="" />
-			<Skill Index="30" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="837" ValueType="0" Name="" />
-			<Skill Index="34" ReqMinPoint="1" MaxPoint="20" ParentSkill1="837" ParentSkill2="0" MagicNumber="838" ValueType="0" Name="" />
-			<Skill Index="35" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="839" ValueType="0" Name="" />
+			<Skill Index="12" ReqMinPoint="1" MaxPoint="20" ParentSkill1="303" ParentSkill2="0" MagicNumber="307" ValueType="0" Name="Automatic HP Recovery Increase" />
+			<Skill Index="14" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="309" ValueType="0" Name="Defense Increase" />
+			<Skill Index="15" ReqMinPoint="1" MaxPoint="10" ParentSkill1="0" ParentSkill2="0" MagicNumber="746" ValueType="0" Name="Elemental DEF Increase" />
+			<Skill Index="16" ReqMinPoint="1" MaxPoint="20" ParentSkill1="307" ParentSkill2="0" MagicNumber="310" ValueType="0" Name="Automatic AG Recovery Increase" />
+			<Skill Index="17" ReqMinPoint="1" MaxPoint="20" ParentSkill1="305" ParentSkill2="0" MagicNumber="312" ValueType="0" Name="Durability Reduction (3)" />
+			<Skill Index="18" ReqMinPoint="1" MaxPoint="20" ParentSkill1="309" ParentSkill2="0" MagicNumber="313" ValueType="0" Name="Defense Success Rate Increase" />
+			<Skill Index="23" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="315" ValueType="0" Name="Armor Set Bonus Increase" />
+			<Skill Index="24" ReqMinPoint="1" MaxPoint="20" ParentSkill1="315" ParentSkill2="0" MagicNumber="316" ValueType="0" Name="Vengeance" />
+			<Skill Index="25" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="317" ValueType="0" Name="Energy Increase" />
+			<Skill Index="26" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="318" ValueType="0" Name="Stamina Increase" />
+			<Skill Index="27" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="319" ValueType="0" Name="Agility Increase" />
+			<Skill Index="28" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="320" ValueType="0" Name="Strength Increase" />
+			<Skill Index="30" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="837" ValueType="0" Name="Cloak of Brilliance Defense PowUp" />
+			<Skill Index="34" ReqMinPoint="1" MaxPoint="20" ParentSkill1="837" ParentSkill2="0" MagicNumber="838" ValueType="0" Name="Cloak of Brilliance Attack PowUp" />
+			<Skill Index="35" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="839" ValueType="0" Name="Steel Armor" />
 		</Tree>
 		<Tree Type="1">
-			<Skill Index="37" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="325" ValueType="0" Name="" />
-			<Skill Index="41" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="843" ValueType="0" Name="" />
-			<Skill Index="42" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="379" ValueType="0" Name="" />
-			<Skill Index="43" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="380" ValueType="0" Name="" />
-			<Skill Index="45" ReqMinPoint="10" MaxPoint="10" ParentSkill1="843" ParentSkill2="0" MagicNumber="844" ValueType="0" Name="" />
+			<Skill Index="37" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="325" ValueType="0" Name="Attack Success Rate Increase" />
+			<Skill Index="41" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="843" ValueType="0" Name="Shining Bird Strenghtener" />
+			<Skill Index="42" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="379" ValueType="0" Name="Lightning Strengthener" />
+			<Skill Index="43" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="380" ValueType="0" Name="Expansion of Wizardry Power Up" />
+			<Skill Index="45" ReqMinPoint="10" MaxPoint="10" ParentSkill1="843" ParentSkill2="0" MagicNumber="844" ValueType="0" Name="Shining Bird Mastery" />
 			<Skill Index="46" ReqMinPoint="1" MaxPoint="20" ParentSkill1="379" ParentSkill2="0" MagicNumber="382" ValueType="0" Name="" />
 			<Skill Index="47" ReqMinPoint="1" MaxPoint="20" ParentSkill1="380" ParentSkill2="0" MagicNumber="383" ValueType="0" Name="" />
 			<Skill Index="51" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="334" ValueType="0" Name="" />
-			<Skill Index="52" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="845" ValueType="0" Name="" />
+			<Skill Index="52" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="845" ValueType="0" Name="Magic Mastery" />
 			<Skill Index="53" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="389" ValueType="0" Name="" />
 			<Skill Index="55" ReqMinPoint="1" MaxPoint="20" ParentSkill1="334" ParentSkill2="0" MagicNumber="338" ValueType="0" Name="" />
-			<Skill Index="58" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="846" ValueType="0" Name="" />
+			<Skill Index="58" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="846" ValueType="0" Name="Dragon Violent Strenghtener" />
 			<Skill Index="59" ReqMinPoint="1" MaxPoint="20" ParentSkill1="338" ParentSkill2="0" MagicNumber="341" ValueType="0" Name="" />
-			<Skill Index="62" ReqMinPoint="10" MaxPoint="10" ParentSkill1="846" ParentSkill2="0" MagicNumber="847" ValueType="0" Name="" />
+			<Skill Index="62" ReqMinPoint="10" MaxPoint="10" ParentSkill1="846" ParentSkill2="0" MagicNumber="847" ValueType="0" Name="Dragon Violent Mastery" />
 			<Skill Index="63" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="743" ValueType="0" Name="" />
 			<Skill Index="66" ReqMinPoint="10" MaxPoint="10" ParentSkill1="0" ParentSkill2="0" MagicNumber="495" ValueType="0" Name="" />
 			<Skill Index="69" ReqMinPoint="10" MaxPoint="10" ParentSkill1="0" ParentSkill2="0" MagicNumber="642" ValueType="0" Name="" />
@@ -957,8 +957,8 @@
 			<Skill Index="8" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="303" ValueType="0" Name="Automatic Mana Recovery Increase" />
 			<Skill Index="9" ReqMinPoint="1" MaxPoint="20" ParentSkill1="300" ParentSkill2="0" MagicNumber="305" ValueType="0" Name="Durability Reduction (2)" />
 			<Skill Index="10" ReqMinPoint="1" MaxPoint="20" ParentSkill1="302" ParentSkill2="0" MagicNumber="306" ValueType="0" Name="SD Recovery Speed Increase" />
-			<Skill Index="12" ReqMinPoint="1" MaxPoint="20" ParentSkill1="303" ParentSkill2="0" MagicNumber="307" ValueType="0" Name="" />
-			<Skill Index="14" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="309" ValueType="0" Name="" />
+			<Skill Index="12" ReqMinPoint="1" MaxPoint="20" ParentSkill1="303" ParentSkill2="0" MagicNumber="307" ValueType="0" Name="Automatic HP Recovery Increase" />
+			<Skill Index="14" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="309" ValueType="0" Name="Defense Increase" />
 			<Skill Index="15" ReqMinPoint="1" MaxPoint="10" ParentSkill1="0" ParentSkill2="0" MagicNumber="746" ValueType="0" Name="" />
 			<Skill Index="16" ReqMinPoint="1" MaxPoint="20" ParentSkill1="307" ParentSkill2="0" MagicNumber="310" ValueType="0" Name="" />
 			<Skill Index="17" ReqMinPoint="1" MaxPoint="20" ParentSkill1="305" ParentSkill2="0" MagicNumber="312" ValueType="0" Name="" />
@@ -1023,6 +1023,72 @@
 			<Skill Index="102" ReqMinPoint="1" MaxPoint="20" ParentSkill1="368" ParentSkill2="0" MagicNumber="372" ValueType="0" Name="" />
 			<Skill Index="104" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="370" ValueType="0" Name="" />
 			<Skill Index="107" ReqMinPoint="1" MaxPoint="20" ParentSkill1="639" ParentSkill2="0" MagicNumber="640" ValueType="0" Name="" />
+			<Skill Index="108" ReqMinPoint="1" MaxPoint="20" ParentSkill1="370" ParentSkill2="0" MagicNumber="371" ValueType="0" Name="" />
+		</Tree>
+	</Class>
+	<Class ID="8192">
+		<Tree Type="0">
+			<Skill Index="1" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="300" ValueType="0" Name="Durability Reduction (1)" />
+			<Skill Index="4" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="301" ValueType="0" Name="PvP Defence Rate Increase" />
+			<Skill Index="6" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="302" ValueType="0" Name="Maximum SD increase" />
+			<Skill Index="8" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="303" ValueType="0" Name="Automatic Mana Recovery Increase" />
+			<Skill Index="9" ReqMinPoint="1" MaxPoint="20" ParentSkill1="300" ParentSkill2="0" MagicNumber="305" ValueType="0" Name="Durability Reduction (2)" />
+			<Skill Index="10" ReqMinPoint="1" MaxPoint="20" ParentSkill1="302" ParentSkill2="0" MagicNumber="306" ValueType="0" Name="SD Recovery Speed Increase" />
+			<Skill Index="12" ReqMinPoint="1" MaxPoint="20" ParentSkill1="303" ParentSkill2="0" MagicNumber="307" ValueType="0" Name="Automatic HP Recovery Increase" />
+			<Skill Index="14" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="309" ValueType="0" Name="Defense Increase" />
+			<Skill Index="15" ReqMinPoint="1" MaxPoint="10" ParentSkill1="0" ParentSkill2="0" MagicNumber="746" ValueType="0" Name="" />
+			<Skill Index="16" ReqMinPoint="1" MaxPoint="20" ParentSkill1="307" ParentSkill2="0" MagicNumber="310" ValueType="0" Name="" />
+			<Skill Index="17" ReqMinPoint="1" MaxPoint="20" ParentSkill1="305" ParentSkill2="0" MagicNumber="312" ValueType="0" Name="" />
+			<Skill Index="18" ReqMinPoint="1" MaxPoint="20" ParentSkill1="309" ParentSkill2="0" MagicNumber="313" ValueType="0" Name="" />
+			<Skill Index="23" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="315" ValueType="0" Name="" />
+			<Skill Index="24" ReqMinPoint="1" MaxPoint="20" ParentSkill1="315" ParentSkill2="0" MagicNumber="316" ValueType="0" Name="" />
+			<Skill Index="25" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="317" ValueType="0" Name="" />
+			<Skill Index="26" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="318" ValueType="0" Name="" />
+			<Skill Index="27" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="319" ValueType="0" Name="" />
+			<Skill Index="28" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="320" ValueType="0" Name="" />
+			<Skill Index="30" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="890" ValueType="0" Name="" />
+			<Skill Index="31" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="888" ValueType="0" Name="" />
+			<Skill Index="34" ReqMinPoint="1" MaxPoint="20" ParentSkill1="890" ParentSkill2="0" MagicNumber="891" ValueType="0" Name="" />
+			<Skill Index="35" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="889" ValueType="0" Name="" />
+		</Tree>
+		<Tree Type="1">
+			<Skill Index="37" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="325" ValueType="0" Name="" />
+			<Skill Index="41" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="877" ValueType="0" Name="" />
+			<Skill Index="45" ReqMinPoint="10" MaxPoint="10" ParentSkill1="877" ParentSkill2="0" MagicNumber="878" ValueType="0" Name="" />
+			<Skill Index="46" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="335" ValueType="0" Name="" />
+			<Skill Index="47" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="879" ValueType="0" Name="" />
+			<Skill Index="49" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="885" ValueType="0" Name="" />
+			<Skill Index="51" ReqMinPoint="10" MaxPoint="10" ParentSkill1="879" ParentSkill2="0" MagicNumber="880" ValueType="0" Name="" />
+			<Skill Index="52" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="334" ValueType="0" Name="" />
+			<Skill Index="53" ReqMinPoint="1" MaxPoint="10" ParentSkill1="885" ParentSkill2="0" MagicNumber="886" ValueType="0" Name="" />
+			<Skill Index="54" ReqMinPoint="10" MaxPoint="10" ParentSkill1="0" ParentSkill2="0" MagicNumber="883" ValueType="0" Name="" />
+			<Skill Index="56" ReqMinPoint="1" MaxPoint="20" ParentSkill1="334" ParentSkill2="0" MagicNumber="338" ValueType="0" Name="" />
+			<Skill Index="57" ReqMinPoint="10" MaxPoint="10" ParentSkill1="886" ParentSkill2="0" MagicNumber="887" ValueType="0" Name="" />
+			<Skill Index="58" ReqMinPoint="1" MaxPoint="20" ParentSkill1="883" ParentSkill2="0" MagicNumber="884" ValueType="0" Name="" />
+			<Skill Index="60" ReqMinPoint="1" MaxPoint="20" ParentSkill1="338" ParentSkill2="0" MagicNumber="341" ValueType="0" Name="" />
+			<Skill Index="63" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="881" ValueType="0" Name="" />
+			<Skill Index="64" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="743" ValueType="0" Name="" />
+			<Skill Index="67" ReqMinPoint="10" MaxPoint="10" ParentSkill1="881" ParentSkill2="0" MagicNumber="882" ValueType="0" Name="" />
+		</Tree>
+		<Tree Type="2">
+			<Skill Index="73" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="347" ValueType="0" Name="" />
+			<Skill Index="77" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="892" ValueType="0" Name="" />
+			<Skill Index="81" ReqMinPoint="1" MaxPoint="10" ParentSkill1="892" ParentSkill2="0" MagicNumber="893" ValueType="0" Name="" />
+			<Skill Index="86" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="357" ValueType="0" Name="" />
+			<Skill Index="87" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="358" ValueType="0" Name="" />
+			<Skill Index="88" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="359" ValueType="0" Name="" />
+			<Skill Index="90" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="361" ValueType="0" Name="" />
+			<Skill Index="92" ReqMinPoint="1" MaxPoint="20" ParentSkill1="359" ParentSkill2="0" MagicNumber="362" ValueType="0" Name="" />
+			<Skill Index="94" ReqMinPoint="1" MaxPoint="20" ParentSkill1="361" ParentSkill2="0" MagicNumber="364" ValueType="0" Name="" />
+			<Skill Index="96" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="366" ValueType="0" Name="" />
+			<Skill Index="97" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="367" ValueType="0" Name="" />
+			<Skill Index="98" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="368" ValueType="0" Name="" />
+			<Skill Index="99" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="628" ValueType="0" Name="" />
+			<Skill Index="100" ReqMinPoint="1" MaxPoint="20" ParentSkill1="366" ParentSkill2="0" MagicNumber="369" ValueType="0" Name="" />
+			<Skill Index="101" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="630" ValueType="0" Name="" />
+			<Skill Index="102" ReqMinPoint="1" MaxPoint="20" ParentSkill1="368" ParentSkill2="0" MagicNumber="372" ValueType="0" Name="" />
+			<Skill Index="104" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="370" ValueType="0" Name="" />
+			<Skill Index="107" ReqMinPoint="1" MaxPoint="20" ParentSkill1="628" ParentSkill2="0" MagicNumber="629" ValueType="0" Name="" />
 			<Skill Index="108" ReqMinPoint="1" MaxPoint="20" ParentSkill1="370" ParentSkill2="0" MagicNumber="371" ValueType="0" Name="" />
 		</Tree>
 	</Class>

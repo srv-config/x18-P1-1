@@ -93,6 +93,7 @@
 //		38: Elemental Defense Increase
 //		39: Dex Booster Duration Time
 //		40: Dex Booster Attack Speed Increase
+//		42: Illussion Blade Attack Damage
 //
 // STRICTLY NO COMMENTS INSIDE TAGS
 -->
@@ -433,6 +434,23 @@
 		<Formula ID="291" Data="(0.8+(((((((%d-30)^3)+25000)/499)/50)*100)/12))*8" /> <!-- SkillPoint -->
 		<Formula ID="292" Data="(1+(((((((%d-30)^3)+25000)/499)/50)*100)/12))*23" /> <!-- SkillPoint -->
 		<Formula ID="293" Data="(1+(((((((%d-30)^3)+25000)/499)/50)*100)/12))*23" /> <!-- SkillPoint -->
+		<Formula ID="294" Data="(((((%d^1.3)*4.1)/3.35)+3.1)*0.8)" /> <!-- SkillPoint -->
+		<Formula ID="295" Data="%d/10" /> <!-- SkillPoint -->
+		<Formula ID="296" Data="(((((%d^1.3)*4.1)/3.35)+3.1)*0.8)" /> <!-- SkillPoint -->
+		<Formula ID="297" Data="%d/10" /> <!-- SkillPoint -->
+		<Formula ID="298" Data="(((((%d^1.3)*4.1)/3.35)+3.1)*0.8)" /> <!-- SkillPoint -->
+		<Formula ID="299" Data="%d/10" /> <!-- SkillPoint -->
+		<Formula ID="300" Data="%d/10" /> <!-- SkillPoint -->
+		<Formula ID="301" Data="(((((%d^1.3)*4.1)/3.35)+3.1)*0.8)" /> <!-- SkillPoint -->
+		<Formula ID="302" Data="%d*5" /> <!-- SkillPoint -->
+		<Formula ID="303" Data="%d*1.0" /> <!-- SkillPoint -->
+		<Formula ID="304" Data="%d*0.5" /> <!-- SkillPoint -->
+		<Formula ID="305" Data="(((((%d^1.3)*3.5)/3.35)+3.1)*4.5)" /> <!-- SkillPoint -->
+		<Formula ID="306" Data="(1+((((((%d)-30)^3)+25000)/499)/8))-0.07475" /> <!-- SkillPoint -->
+		<Formula ID="307" Data="((((((2+%d)^2)/10)*6)/7)*7.5)" /> <!-- SkillPoint -->
+		<Formula ID="308" Data="((((((5+%d)^1.6)/4)*4)/5)*4.5)" /> <!-- SkillPoint -->
+		<Formula ID="309" Data="((((((5+%d)^1.6)/4)*4)/5)*5)" /> <!-- SkillPoint -->
+		<Formula ID="310" Data="((((((5+%d)^1.6)/5)*4)/5)*3.5)" /> <!-- SkillPoint -->
 	</SkillTree>
 	<SetOption>
 		<Formula ID="0" Data="((((%d*1.25)^1.48)+5)/1.1)" /> <!-- ItemLevel -->
@@ -578,6 +596,8 @@
 		<Formula ID="39" Data="5" /> <!-- None -->
 		<Formula ID="40" Data="30" /> <!-- None -->
 		<Formula ID="41" Data="2000" /> <!-- None -->
+		<Formula ID="42" Data="((%d/4)+(%d/14))" /> <!-- Strength, Agility -->
+		<Formula ID="43" Data="(%d/50)+(40+((%d+10)^2/16))+(%d*0)+(%d/3.5)" />
 	</Character>
 	<GuardianItem>
 		<Formula ID="0" Data="20+((9+%d)/2)^2" /> <!-- ItemLevel -->

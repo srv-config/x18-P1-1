@@ -45,7 +45,8 @@
 	<Skill Index="2012" ItemGroup="12" ItemIndex="162" ReqIndex="55" ReqMasterSkillIndex="490" ReqMasterPoint="10" />
 	<Skill Index="2013" ItemGroup="12" ItemIndex="163" ReqIndex="13" ReqMasterSkillIndex="484" ReqMasterPoint="10" />
 	<Skill Index="243" ItemGroup="15" ItemIndex="49" ReqIndex="242" ReqMasterSkillIndex="847" ReqMasterPoint="10" />
-	<Skill Index="247" ItemGroup="15" ItemIndex="53" ReqIndex="246" ReqMasterSkillIndex="856" ReqMasterPoint="10" />	
+	<Skill Index="247" ItemGroup="15" ItemIndex="53" ReqIndex="246" ReqMasterSkillIndex="856" ReqMasterPoint="10" />
 	<Skill Index="2023" ItemGroup="12" ItemIndex="167" ReqIndex="24" ReqMasterSkillIndex="411" ReqMasterPoint="10" />
-	<Skill Index="2025" ItemGroup="12" ItemIndex="169" ReqIndex="28" ReqMasterSkillIndex="422" ReqMasterPoint="10" />	
+	<Skill Index="2025" ItemGroup="12" ItemIndex="169" ReqIndex="28" ReqMasterSkillIndex="422" ReqMasterPoint="10" />
+	<Skill Index="2030" ItemGroup="12" ItemIndex="91" ReqIndex="2029" ReqMasterSkillIndex="880" ReqMasterPoint="10" />
 </SkillRequire>

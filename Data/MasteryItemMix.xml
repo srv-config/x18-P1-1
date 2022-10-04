@@ -1056,8 +1056,51 @@
 		<Material ID="974" Cat="6" Index="54" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="0" Name="Blue Eye Fairy Shield" />
 		<Material ID="975" Cat="6" Index="55" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="0" Name="Silver Heart Eye Fairy Shield" />
 		<Material ID="976" Cat="6" Index="56" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="0" Name="Manticore Fairy Shield" />
+		<Material ID="977" Cat="0" Index="105" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="1" Name="Blood Angel Blade" />
+		<Material ID="978" Cat="0" Index="106" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="1" Name="Holy Angel Blade" />
+		<Material ID="979" Cat="0" Index="107" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="1" Name="Blood Angel Blade" />
+		<Material ID="980" Cat="0" Index="108" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="1" Name="Soul Blade" />
+		<Material ID="981" Cat="0" Index="109" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="1" Name="Blue Eye Blade" />
+		<Material ID="982" Cat="0" Index="110" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="1" Name="Silver Heart Blade" />
+		<Material ID="983" Cat="0" Index="111" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="1" Name="Manticore Blade" />
+		<Material ID="984" Cat="20" Index="89" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="0" Name="Sealed Longing Blood Angel Armor" />
+		<Material ID="985" Cat="20" Index="90" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="0" Name="Sealed Longing Blood Angel Helm" />
+		<Material ID="986" Cat="20" Index="91" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="0" Name="Sealed Longing Blood Angel Pents" />
+		<Material ID="987" Cat="20" Index="92" MinLevel="0" MaxLevel="0" Option="0" Durability="0" Type="0" Name="Sealed Longing Blood Angel Gloves" />
+		<Material ID="988" Cat="7" Index="306" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Blue Angel Illusion Knight Helmet" />
+		<Material ID="989" Cat="8" Index="306" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Blue Angel Illusion Knight Armor" />
+		<Material ID="990" Cat="9" Index="306" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Blue Angel Illusion Knight Pants" />
+		<Material ID="991" Cat="10" Index="306" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Blue Angel Illusion Knight Gloves" />
+		<Material ID="992" Cat="7" Index="307" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Dark Angel Illusion Knight Helmet" />
+		<Material ID="993" Cat="8" Index="307" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Dark Angel Illusion Knight Armor" />
+		<Material ID="994" Cat="9" Index="307" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Dark Angel Illusion Knight Pants" />
+		<Material ID="995" Cat="10" Index="307" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Dark Angel Illusion Knight Gloves" />
+		<Material ID="996" Cat="7" Index="308" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Holy Angel Illusion Knight Helmet" />
+		<Material ID="997" Cat="8" Index="308" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Holy Angel Illusion Knight Armor" />
+		<Material ID="998" Cat="9" Index="308" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Holy Angel Illusion Knight Pants" />
+		<Material ID="999" Cat="10" Index="308" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Holy Angel Illusion Knight Gloves" />
+		<Material ID="1000" Cat="7" Index="309" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Soul Illusion Knight Helmet" />
+		<Material ID="1001" Cat="8" Index="309" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Soul Illusion Knight Armor" />
+		<Material ID="1002" Cat="9" Index="309" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Soul Illusion Knight Pants" />
+		<Material ID="1003" Cat="10" Index="309" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Soul Illusion Knight Gloves" />
+		<Material ID="1004" Cat="7" Index="310" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Blue Eye Illusion Knight Helmet" />
+		<Material ID="1005" Cat="8" Index="310" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Blue Eye Illusion Knight Armor" />
+		<Material ID="1006" Cat="9" Index="310" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Blue Eye Illusion Knight Pants" />
+		<Material ID="1007" Cat="10" Index="310" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Blue Eye Illusion Knight Gloves" />
+		<Material ID="1008" Cat="7" Index="311" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Silver Heart Illusion Knight Helmet" />
+		<Material ID="1009" Cat="8" Index="311" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Silver Heart Illusion Knight Armor" />
+		<Material ID="1010" Cat="9" Index="311" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Silver Heart Illusion Knight Pants" />
+		<Material ID="1011" Cat="10" Index="311" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Silver Heart Illusion Knight Gloves" />
+		<Material ID="1012" Cat="7" Index="312" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Manticore Illusion Knight Helmet" />
+		<Material ID="1013" Cat="8" Index="312" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Manticore Illusion Knight Armor" />
+		<Material ID="1014" Cat="9" Index="312" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Manticore Illusion Knight Pants" />
+		<Material ID="1015" Cat="10" Index="312" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Manticore Illusion Knight Gloves" />
+		<Material ID="1016" Cat="7" Index="313" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Brilliant Illusion Knight Helmet" />
+		<Material ID="1017" Cat="8" Index="313" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Brilliant Illusion Knight Armor" />
+		<Material ID="1018" Cat="9" Index="313" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Brilliant Illusion Knight Pants" />
+		<Material ID="1019" Cat="10" Index="313" MinLevel="11" MaxLevel="15" Option="4" Durability="0" Type="2" Name="Brilliant Illusion Knight Gloves" />
 	</CombinationMaterials>
-	
+
 	<CombinationResult AncientHeroSoulLuckRate="50" NoAncientHeroSoulLuckRate="5">
 		<Mix ID="78" Cat="8" Index="98" Level="0" Name="Blood Angel Knight Armor" OptKeepType="24" SuccessRate="100" MaterialID1="78" MaterialCnt1="1" MaterialID2="127" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
 		<Mix ID="79" Cat="7" Index="98" Level="0" Name="Blood Angel Knight Helm" OptKeepType="24" SuccessRate="100" MaterialID1="71" MaterialCnt1="1" MaterialID2="127" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
@@ -1995,6 +2038,49 @@
 		<Mix ID="1480" Cat="6" Index="54" Level="0" Name="Blue Eye Fairy Shield" OptKeepType="3" SuccessRate="100" MaterialID1="973" MaterialCnt1="1" MaterialID2="453" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
 		<Mix ID="1481" Cat="6" Index="55" Level="0" Name="Silver Heart Eye Fairy Shield" OptKeepType="3" SuccessRate="100" MaterialID1="974" MaterialCnt1="1" MaterialID2="643" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
 		<Mix ID="1482" Cat="6" Index="56" Level="0" Name="Manticore Fairy Shield" OptKeepType="3" SuccessRate="100" MaterialID1="975" MaterialCnt1="1" MaterialID2="773" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<!-- 1483~1592 -->
+		<Mix ID="1593" Cat="0" Index="106" Level="0" Name="Dark Angel Blade" OptKeepType="3" SuccessRate="100" MaterialID1="977" MaterialCnt1="1" MaterialID2="36" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1594" Cat="0" Index="107" Level="0" Name="Holy Angel Blade" OptKeepType="3" SuccessRate="100" MaterialID1="978" MaterialCnt1="1" MaterialID2="271" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1595" Cat="0" Index="108" Level="0" Name="Soul Blade" OptKeepType="3" SuccessRate="100" MaterialID1="979" MaterialCnt1="1" MaterialID2="338" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1596" Cat="0" Index="109" Level="0" Name="Blue Eye Blade" OptKeepType="3" SuccessRate="100" MaterialID1="980" MaterialCnt1="1" MaterialID2="453" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1597" Cat="0" Index="110" Level="0" Name="Silver Heart Blade" OptKeepType="3" SuccessRate="100" MaterialID1="981" MaterialCnt1="1" MaterialID2="643" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1598" Cat="0" Index="111" Level="0" Name="Manticore Blade" OptKeepType="3" SuccessRate="100" MaterialID1="982" MaterialCnt1="1" MaterialID2="773" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1599" Cat="8" Index="306" Level="0" Name="Blood Angel Illussion Knight Armor" OptKeepType="24" SuccessRate="100" MaterialID1="984" MaterialCnt1="1" MaterialID2="127" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
+		<Mix ID="1600" Cat="7" Index="306" Level="0" Name="Blood Angel Illussion Knight Helm" OptKeepType="24" SuccessRate="100" MaterialID1="985" MaterialCnt1="1" MaterialID2="127" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
+		<Mix ID="1601" Cat="9" Index="306" Level="0" Name="Blood Angel Illussion Knight Pants" OptKeepType="24" SuccessRate="100" MaterialID1="986" MaterialCnt1="1" MaterialID2="127" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
+		<Mix ID="1602" Cat="10" Index="306" Level="0" Name="Blood Angel Illussion Knight Boots" OptKeepType="24" SuccessRate="100" MaterialID1="987" MaterialCnt1="1" MaterialID2="127" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
+		<Mix ID="1603" Cat="8" Index="306" Level="11" Name="Blood Angel Illussion Knight Armor" OptKeepType="8" SuccessRate="100" MaterialID1="984" MaterialCnt1="1" MaterialID2="70" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
+		<Mix ID="1604" Cat="7" Index="306" Level="11" Name="Blood Angel Illussion Knight Helm" OptKeepType="8" SuccessRate="100" MaterialID1="985" MaterialCnt1="1" MaterialID2="70" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
+		<Mix ID="1605" Cat="9" Index="306" Level="11" Name="Blood Angel Illussion Knight Pants" OptKeepType="8" SuccessRate="100" MaterialID1="986" MaterialCnt1="1" MaterialID2="70" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
+		<Mix ID="1606" Cat="10" Index="306" Level="11" Name="Blood Angel Illussion Knight Boots" OptKeepType="8" SuccessRate="100" MaterialID1="987" MaterialCnt1="1" MaterialID2="70" MaterialCnt2="1" MaterialID3="-1" MaterialCnt3="0" MaterialID4="-1" MaterialCnt4="0" MaterialID5="-1" MaterialCnt5="0" MaterialID6="-1" MaterialCnt6="0" Money="0" />
+		<Mix ID="1607" Cat="7" Index="307" Level="0" Name="Dark Angel Illusion Knight Helmet" OptKeepType="6" SuccessRate="100" MaterialID1="988" MaterialCnt1="1" MaterialID2="128" MaterialCnt2="1" MaterialID3="7" MaterialCnt3="1" MaterialID4="8" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1608" Cat="8" Index="307" Level="0" Name="Dark Angel Illusion Knight Armor" OptKeepType="6" SuccessRate="100" MaterialID1="989" MaterialCnt1="1" MaterialID2="128" MaterialCnt2="1" MaterialID3="7" MaterialCnt3="1" MaterialID4="8" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1609" Cat="9" Index="307" Level="0" Name="Dark Angel Illusion Knight Pants" OptKeepType="6" SuccessRate="100" MaterialID1="990" MaterialCnt1="1" MaterialID2="128" MaterialCnt2="1" MaterialID3="7" MaterialCnt3="1" MaterialID4="8" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1610" Cat="10" Index="307" Level="0" Name="Dark Angel Illusion Knight Gloves" OptKeepType="6" SuccessRate="100" MaterialID1="991" MaterialCnt1="1" MaterialID2="128" MaterialCnt2="1" MaterialID3="7" MaterialCnt3="1" MaterialID4="8" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1611" Cat="7" Index="308" Level="0" Name="Holy Angel Illusion Knight Helmet" OptKeepType="6" SuccessRate="100" MaterialID1="992" MaterialCnt1="1" MaterialID2="69" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1612" Cat="8" Index="308" Level="0" Name="Holy Angel Illusion Knight Armor" OptKeepType="6" SuccessRate="100" MaterialID1="993" MaterialCnt1="1" MaterialID2="69" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1613" Cat="9" Index="308" Level="0" Name="Holy Angel Illusion Knight Pants" OptKeepType="6" SuccessRate="100" MaterialID1="994" MaterialCnt1="1" MaterialID2="69" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1614" Cat="10" Index="308" Level="0" Name="Holy Angel Illusion Knight Gloves" OptKeepType="6" SuccessRate="100" MaterialID1="995" MaterialCnt1="1" MaterialID2="69" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1615" Cat="7" Index="309" Level="0" Name="Soul Illusion Knight Helmet" OptKeepType="6" SuccessRate="100" MaterialID1="996" MaterialCnt1="1" MaterialID2="197" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1616" Cat="8" Index="309" Level="0" Name="Soul Illusion Knight Armor" OptKeepType="6" SuccessRate="100" MaterialID1="997" MaterialCnt1="1" MaterialID2="197" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1617" Cat="9" Index="309" Level="0" Name="Soul Illusion Knight Pants" OptKeepType="6" SuccessRate="100" MaterialID1="998" MaterialCnt1="1" MaterialID2="197" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1618" Cat="10" Index="309" Level="0" Name="Soul Illusion Knight Gloves" OptKeepType="6" SuccessRate="100" MaterialID1="999" MaterialCnt1="1" MaterialID2="197" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1619" Cat="7" Index="310" Level="0" Name="Blue Eye Illusion Knight Helmet" OptKeepType="6" SuccessRate="100" MaterialID1="1000" MaterialCnt1="1" MaterialID2="328" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1620" Cat="8" Index="310" Level="0" Name="Blue Eye Illusion Knight Armor" OptKeepType="6" SuccessRate="100" MaterialID1="1001" MaterialCnt1="1" MaterialID2="328" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1621" Cat="9" Index="310" Level="0" Name="Blue Eye Illusion Knight Pants" OptKeepType="6" SuccessRate="100" MaterialID1="1002" MaterialCnt1="1" MaterialID2="328" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1622" Cat="10" Index="310" Level="0" Name="Blue Eye Illusion Knight Gloves" OptKeepType="6" SuccessRate="100" MaterialID1="1003" MaterialCnt1="1" MaterialID2="328" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1623" Cat="7" Index="311" Level="0" Name="Silver Heart Illusion Knight Helmet" OptKeepType="6" SuccessRate="100" MaterialID1="1004" MaterialCnt1="1" MaterialID2="498" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1624" Cat="8" Index="311" Level="0" Name="Silver Heart Illusion Knight Armor" OptKeepType="6" SuccessRate="100" MaterialID1="1005" MaterialCnt1="1" MaterialID2="498" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1625" Cat="9" Index="311" Level="0" Name="Silver Heart Illusion Knight Pants" OptKeepType="6" SuccessRate="100" MaterialID1="1006" MaterialCnt1="1" MaterialID2="498" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1626" Cat="10" Index="311" Level="0" Name="Silver Heart Illusion Knight Gloves" OptKeepType="6" SuccessRate="100" MaterialID1="1007" MaterialCnt1="1" MaterialID2="498" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1627" Cat="7" Index="312" Level="0" Name="Manticore Illusion Knight Helmet" OptKeepType="6" SuccessRate="100" MaterialID1="1008" MaterialCnt1="1" MaterialID2="576" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1628" Cat="8" Index="312" Level="0" Name="Manticore Illusion Knight Armor" OptKeepType="6" SuccessRate="100" MaterialID1="1009" MaterialCnt1="1" MaterialID2="576" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1629" Cat="9" Index="312" Level="0" Name="Manticore Illusion Knight Pants" OptKeepType="6" SuccessRate="100" MaterialID1="1010" MaterialCnt1="1" MaterialID2="576" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1630" Cat="10" Index="312" Level="0" Name="Manticore Illusion Knight Gloves" OptKeepType="6" SuccessRate="100" MaterialID1="1011" MaterialCnt1="1" MaterialID2="576" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1631" Cat="7" Index="313" Level="0" Name="Brilliant Illusion Knight Helmet" OptKeepType="8" SuccessRate="100" MaterialID1="1012" MaterialCnt1="1" MaterialID2="772" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1632" Cat="8" Index="313" Level="0" Name="Brilliant Illusion Knight Armor" OptKeepType="8" SuccessRate="100" MaterialID1="1013" MaterialCnt1="1" MaterialID2="772" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1633" Cat="9" Index="313" Level="0" Name="Brilliant Illusion Knight Pants" OptKeepType="8" SuccessRate="100" MaterialID1="1014" MaterialCnt1="1" MaterialID2="772" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
+		<Mix ID="1634" Cat="10" Index="313" Level="0" Name="Brilliant Illusion Knight Gloves" OptKeepType="8" SuccessRate="100" MaterialID1="1015" MaterialCnt1="1" MaterialID2="772" MaterialCnt2="1" MaterialID3="21" MaterialCnt3="1" MaterialID4="22" MaterialCnt4="1" MaterialID5="6" MaterialCnt5="1" MaterialID6="3" MaterialCnt6="1" Money="0" />
 	</CombinationResult>
 	<RandomCombinationResult>
 		<Result ID="0">
@@ -2018,6 +2104,7 @@
 			<Item Cat="7" Index="212" Name="Blood Angel Gun Crusher Helm" Rate="1" />
 			<Item Cat="7" Index="241" Name="Blood Angel Light Wizard Helm" Rate="1" />
 			<Item Cat="7" Index="259" Name="Blood Angel Mage Helm" Rate="1" />
+			<Item Cat="7" Index="306" Name="Blood Angel Illusion Knight Helm" Rate="1" />
 		</Result>
 		<Result ID="2">
 			<Item Cat="8" Index="98" Name="Blood Angel Knight Armor" Rate="1" />
@@ -2035,6 +2122,7 @@
 			<Item Cat="8" Index="212" Name="Blood Angel Gun Crusher Armor" Rate="1" />
 			<Item Cat="8" Index="241" Name="Blood Angel Light Wizard Armor" Rate="1" />
 			<Item Cat="8" Index="259" Name="Blood Angel Mage Armor" Rate="1" />
+			<Item Cat="8" Index="306" Name="Blood Angel Illusion Knight  Armor" Rate="1" />
 		</Result>
 		<Result ID="3">	
 			<Item Cat="9" Index="98" Name="Blood Angel Knight Pants" Rate="1" />
@@ -2052,6 +2140,7 @@
 			<Item Cat="9" Index="212" Name="Blood Angel Gun Crusher Pants" Rate="1" />
 			<Item Cat="9" Index="241" Name="Blood Angel Light Wizard Pants" Rate="1" />
 			<Item Cat="9" Index="259" Name="Blood Angel Mage Pants" Rate="1" />
+			<Item Cat="9" Index="306" Name="Blood Angel Illusion Knight  Pants" Rate="1" />
 		</Result>
 		<Result ID="4">	
 			<Item Cat="10" Index="98" Name="Blood Angel Knight Gloves" Rate="1" />
@@ -2068,6 +2157,7 @@
 			<Item Cat="10" Index="212" Name="Blood Angel Gun Crusher Gloves" Rate="1" />
 			<Item Cat="10" Index="241" Name="Blood Angel Light Wizard Gloves" Rate="1" />
 			<Item Cat="10" Index="259" Name="Blood Angel Mage Gloves" Rate="1" />
+			<Item Cat="10" Index="306" Name="Blood Angel Illusion Knight  Gloves" Rate="1" />
 		</Result>
 		<Result ID="5">	
 			<Item Cat="11" Index="98" Name="Blood Angel Knight Boots" Rate="1" />
@@ -2085,6 +2175,7 @@
 			<Item Cat="11" Index="212" Name="Blood Angel Gun Crusher Boots" Rate="1" />
 			<Item Cat="11" Index="241" Name="Blood Angel Light Wizard Boots" Rate="1" />
 			<Item Cat="11" Index="259" Name="Blood Angel Mage Boots" Rate="1" />
+			<Item Cat="11" Index="306" Name="Blood Angel Illusion Knight  Boots" Rate="1" />
 		</Result>
 	</RandomCombinationResult>
 </MasteryItemMix>

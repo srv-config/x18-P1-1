@@ -12,19 +12,20 @@
 -- SkillID refers to Index of skill in \Data\Skills\SkillList.txt
 
 -- Character Classes
-CLASS_WIZARD                                          = 0
-CLASS_KNIGHT                                          = 1
-CLASS_ELF                                             = 2
-CLASS_GLADIATOR                                       = 3
-CLASS_DARKLORD                                        = 4
-CLASS_SUMMONER                                        = 5
-CLASS_RAGEFIGHTER                                     = 6
-CLASS_GROWLANCER									  = 7
-CLASS_RUNEWIZARD									  = 8
-CLASS_SLAYER										  = 9
-CLASS_GUNCRUSHER									  = 10
-CLASS_LIGHTWIZARD									  = 11
-CLASS_LEMURIAMAGE									  = 12
+CLASS_WIZARD                                          = 0	-- Fairy Elf, Muse Elf, High Elf
+CLASS_KNIGHT                                          = 1	-- Dark Wizard, Soul Master, Grand Master
+CLASS_ELF                                             = 2	-- Dark Knight, Blade Knight, Blade Master
+CLASS_GLADIATOR                                       = 3	-- Magic Gladiator, Duel Master
+CLASS_DARKLORD                                        = 4	-- Dark Lord, Lord Emperor
+CLASS_SUMMONER                                        = 5	-- Summoner, Bloody Summoner, Dimension Master
+CLASS_RAGEFIGHTER                                     = 6	-- Rage Fighter, Fist Master
+CLASS_GROWLANCER									  = 7	-- Grow Lancer, Mirage Lancer
+CLASS_RUNEWIZARD									  = 8	-- Rune Wizard, Rune Spell Master, Grand Rune Master
+CLASS_SLAYER									  	  = 9	-- Slayer, Royal Slayer, Master Slayer, Slaughterer
+CLASS_GUNCRUSHER									  = 10	-- Gun Crusher, Gun Breaker, Master Gun Breaker, Heist Gun Crusher
+CLASS_LIGHTWIZARD									  = 11	-- Light Wizard, Shining Wizard, Luminous Wizard
+CLASS_LEMURIAMAGE									  = 12	-- Lemuria Mage, Warmage, Archmage, Mystic Mage
+CLASS_ILLUSIONKNIGHT								  = 13	-- Illusion Knight, Mirage Knight, Illusion Master, Mystic Knight	
 
 -- SkillID: 1078, 1088, Evil Spirit Enhancement Skill
 function EvilSpiritCalc_4thEnchant(Class, InDamage, Strength, Dexterity, Vitality, Energy)
@@ -536,7 +537,9 @@ function Heal_4thEnchant_Elf(Class, Index, TargetIndex, Strength, Dexterity, Vit
 		elseif (Class == CLASS_LIGHTWIZARD) then
 			SkillEffect = Energy / 5 + 5
 		elseif (Class == CLASS_LEMURIAMAGE) then
-			SkillEffect = Energy / 5 + 5			
+			SkillEffect = Energy / 5 + 5
+		elseif (Class == CLASS_ILLUSIONKNIGHT) then
+			SkillEffect = Energy / 5 + 5	
 		end
 	elseif (Index == TargetIndex) then
 		SkillEffect = Energy / 5 + 5
@@ -584,6 +587,8 @@ function Attack_4thEnchant_Elf(Class, Index, TargetIndex, Strength, Dexterity, V
 			SkillEffect = 3 + Energy / 7
 		elseif (Class == CLASS_LEMURIAMAGE) then
 			SkillEffect = 3 + Energy / 7
+		elseif (Class == CLASS_ILLUSIONKNIGHT) then
+			SkillEffect = 3 + Energy / 7
 		end
 	elseif (Index == TargetIndex) then
 		SkillEffect = 3 + Energy / 7
@@ -623,6 +628,8 @@ function Defense_4thEnchant_Elf(Class, Index, TargetIndex, Strength, Dexterity, 
 		elseif (Class == CLASS_LIGHTWIZARD) then
 			SkillEffect = 2 + Energy / 8
 		elseif (Class == CLASS_LEMURIAMAGE) then
+			SkillEffect = 2 + Energy / 8
+		elseif (Class == CLASS_ILLUSIONKNIGHT) then
 			SkillEffect = 2 + Energy / 8
 		end
 	elseif (Index == TargetIndex) then
@@ -664,6 +671,8 @@ function ElementalAttack_4thEnchant_Elf(Class, Index, TargetIndex, Strength, Dex
 			SkillEffect = InEffect
 		elseif (Class == CLASS_LEMURIAMAGE) then
 			SkillEffect = InEffect
+		elseif (Class == CLASS_ILLUSIONKNIGHT) then
+			SkillEffect = InEffect
 		end
 	elseif (Index == TargetIndex) then
 		SkillEffect = InEffect
@@ -704,6 +713,8 @@ function ElementalDefense_4thEnchant_Elf(Class, Index, TargetIndex, Strength, De
 			SkillEffect = InEffect
 		elseif (Class == CLASS_LEMURIAMAGE) then
 			SkillEffect = InEffect
+		elseif (Class == CLASS_ILLUSIONKNIGHT) then
+			SkillEffect = InEffect
 		end
 	elseif (Index == TargetIndex) then
 		SkillEffect = InEffect
@@ -719,3 +730,51 @@ function Bless_4thEnchant_Elf(Energy)
 	return SkillEffect
 end
 
+-- SkillID: 1231, Charge Slash Enhancement Skill
+function IllusionKnightChargeSlash_4thEnchant_Calc(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
+	local OutDamage = 0
+	
+	if (BarrageCount == 1) then
+		OutDamage = (InDamage * (200 + (Strength / 30) + (Dexterity / 30))) / 100;
+	elseif (BarrageCount == 2) then
+		OutDamage = (InDamage * (200 + (Strength / 30) + (Dexterity / 30))) / 100;
+	elseif (BarrageCount == 3) then
+		OutDamage = (InDamage * (200 + (Strength / 30) + (Dexterity / 30))) / 100;
+	end
+
+	return OutDamage
+end
+
+-- SkillID: 1233, Wind Glaive Enhancement Skill
+function IllusionKnightWindGlaive_4thEnchant_Calc(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
+	local OutDamage = 0
+	
+	if (BarrageCount == 1) then
+		OutDamage = (InDamage * (200 + (Strength / 30) + (Dexterity / 30))) / 100;
+	elseif (BarrageCount == 2) then
+		OutDamage = (InDamage * (200 + (Strength / 30) + (Dexterity / 30))) / 100;
+	elseif (BarrageCount == 3) then
+		OutDamage = (InDamage * (200 + (Strength / 30) + (Dexterity / 30))) / 100;
+	elseif (BarrageCount == 4) then
+		OutDamage = (InDamage * (200 + (Strength / 30) + (Dexterity / 30))) / 100;
+	end
+
+	return OutDamage
+end
+
+-- SkillID: 1233, Blade Storm Enhancement Skill
+function IllusionKnightBladeStorm_4thEnchant_Calc(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
+	local OutDamage = 0
+	
+	if (BarrageCount == 1) then
+		OutDamage = (InDamage * (200 + (Strength / 30) + (Dexterity / 30))) / 100;
+	elseif (BarrageCount == 2) then
+		OutDamage = (InDamage * (200 + (Strength / 30) + (Dexterity / 30))) / 100;
+	elseif (BarrageCount == 3) then
+		OutDamage = (InDamage * (200 + (Strength / 30) + (Dexterity / 30))) / 100;
+	elseif (BarrageCount == 4) then
+		OutDamage = (InDamage * (200 + (Strength / 30) + (Dexterity / 30))) / 100;
+	end
+
+	return OutDamage
+end

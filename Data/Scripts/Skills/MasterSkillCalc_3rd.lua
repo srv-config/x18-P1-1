@@ -1,7 +1,7 @@
 -- // ============================================================
 -- // == INTERNATIONAL GAMING CENTER NETWORK
 -- // == www.igcn.mu
--- // == (C) 2019 IGC-Network (R)
+-- // == (C) 2022 IGC-Network (R)
 -- // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -- // == File is a part of IGCN Group MuOnline Server files.
 -- // ============================================================
@@ -12,19 +12,20 @@
 -- SkillID refers to Index of skill in \Data\Skills\SkillList.xml
 
 -- Character Classes
-CLASS_WIZARD                                          = 0
-CLASS_KNIGHT                                          = 1
-CLASS_ELF                                             = 2
-CLASS_GLADIATOR                                       = 3
-CLASS_DARKLORD                                        = 4
-CLASS_SUMMONER                                        = 5
-CLASS_RAGEFIGHTER                                     = 6
-CLASS_GROWLANCER									  = 7
-CLASS_RUNEWIZARD									  = 8
-CLASS_SLAYER									  	  = 9
-CLASS_GUNCRUSHER									  = 10
-CLASS_LIGHTWIZARD									  = 11
-CLASS_LEMURIAMAGE									  = 12
+CLASS_WIZARD                                          = 0	-- Fairy Elf, Muse Elf, High Elf
+CLASS_KNIGHT                                          = 1	-- Dark Wizard, Soul Master, Grand Master
+CLASS_ELF                                             = 2	-- Dark Knight, Blade Knight, Blade Master
+CLASS_GLADIATOR                                       = 3	-- Magic Gladiator, Duel Master
+CLASS_DARKLORD                                        = 4	-- Dark Lord, Lord Emperor
+CLASS_SUMMONER                                        = 5	-- Summoner, Bloody Summoner, Dimension Master
+CLASS_RAGEFIGHTER                                     = 6	-- Rage Fighter, Fist Master
+CLASS_GROWLANCER									  = 7	-- Grow Lancer, Mirage Lancer
+CLASS_RUNEWIZARD									  = 8	-- Rune Wizard, Rune Spell Master, Grand Rune Master
+CLASS_SLAYER									  	  = 9	-- Slayer, Royal Slayer, Master Slayer, Slaughterer
+CLASS_GUNCRUSHER									  = 10	-- Gun Crusher, Gun Breaker, Master Gun Breaker, Heist Gun Crusher
+CLASS_LIGHTWIZARD									  = 11	-- Light Wizard, Shining Wizard, Luminous Wizard
+CLASS_LEMURIAMAGE									  = 12	-- Lemuria Mage, Warmage, Archmage, Mystic Mage
+CLASS_ILLUSIONKNIGHT								  = 13	-- Illusion Knight, Mirage Knight, Illusion Master, Mystic Knight
 
 -- SkillID: 385, 487, Evil Spirit Strengthener
 function EvilSpirit_MasterLevel1_Calc(Class, InDamage, Strength, Dexterity, Vitality, Energy)
@@ -233,7 +234,9 @@ function ElfHeal_Level1(TargetClass, Index, TargetIndex, Strength, Dexterity, Vi
 		elseif (TargetClass == CLASS_LIGHTWIZARD) then
 			SkillEffect = Energy / 5 + 5
 		elseif (TargetClass == CLASS_LEMURIAMAGE) then
-			SkillEffect = Energy / 5 + 5			
+			SkillEffect = Energy / 5 + 5
+		elseif (TargetClass == CLASS_ILLUSIONKNIGHT) then
+			SkillEffect = Energy / 5 + 5
 		end
 	elseif (Index == TargetIndex) then
 		SkillEffect = Energy / 5 + 5
@@ -288,6 +291,8 @@ function ElfDefense_Level1(Class, Index, TargetIndex, Strength, Dexterity, Vital
 			SkillEffect = 2 + Energy / 8
 		elseif (Class == CLASS_LEMURIAMAGE) then
 			SkillEffect = 2 + Energy / 8
+		elseif (Class == CLASS_ILLUSIONKNIGHT) then
+			SkillEffect = 2 + Energy / 8
 		end
 	elseif (Index == TargetIndex) then
 		SkillEffect = 2 + Energy / 8
@@ -335,6 +340,8 @@ function ElfDefense_Level2(Class, Index, TargetIndex, Strength, Dexterity, Vital
 			SkillEffect = 2 + Energy / 8
 		elseif (Class == CLASS_LEMURIAMAGE) then
 			SkillEffect = 2 + Energy / 8
+		elseif (Class == CLASS_ILLUSIONKNIGHT) then
+			SkillEffect = 2 + Energy / 8
 		end
 	elseif (Index == TargetIndex) then
 		SkillEffect = 2 + Energy / 8
@@ -375,6 +382,8 @@ function ElfAttack_Level1(Class, Index, TargetIndex, Strength, Dexterity, Vitali
 			SkillEffect = 3 + Energy / 7
 		elseif (Class == CLASS_LEMURIAMAGE) then
 			SkillEffect = 3 + Energy / 7
+		elseif (Class == CLASS_ILLUSIONKNIGHT) then
+			SkillEffect = 3 + Energy / 7
 		end
 	elseif (Index == TargetIndex) then
 		SkillEffect = 3 + Energy / 7
@@ -414,6 +423,8 @@ function ElfAttack_Level2(Class, Index, TargetIndex, Strength, Dexterity, Vitali
 		elseif (Class == CLASS_LIGHTWIZARD) then
 			SkillEffect = 3 + Energy / 7
 		elseif (Class == CLASS_LEMURIAMAGE) then
+			SkillEffect = 3 + Energy / 7
+		elseif (Class == CLASS_ILLUSIONKNIGHT) then
 			SkillEffect = 3 + Energy / 7
 		end
 	elseif (Index == TargetIndex) then
@@ -1560,6 +1571,8 @@ function LemuriaMageDefense_Level1(Class, Index, TargetIndex, Energy)
 			SkillEffect = 2 + Energy / 16
 		elseif (Class == CLASS_LEMURIAMAGE) then
 			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_ILLUSIONKNIGHT) then
+			SkillEffect = 2 + Energy / 16
 		end
 	elseif (Index == TargetIndex) then
 		SkillEffect = 2 + Energy / 16
@@ -1599,6 +1612,8 @@ function LemuriaMageDefense_Level2(Class, Index, TargetIndex, Energy)
 		elseif (Class == CLASS_SLAYER) then
 			SkillEffect = 2 + Energy / 16
 		elseif (Class == CLASS_LEMURIAMAGE) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_ILLUSIONKNIGHT) then
 			SkillEffect = 2 + Energy / 16
 		end
 	elseif (Index == TargetIndex) then
@@ -1640,6 +1655,8 @@ function LemuriaMageAttack_Level1(Class, Index, TargetIndex, Energy)
 			SkillEffect = 3 + Energy / 15
 		elseif (Class == CLASS_LEMURIAMAGE) then
 			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_ILLUSIONKNIGHT) then
+			SkillEffect = 3 + Energy / 15
 		end
 	elseif (Index == TargetIndex) then
 		SkillEffect = 3 + Energy / 15
@@ -1679,6 +1696,8 @@ function LemuriaMageAttack_Level2(Class, Index, TargetIndex, Energy)
 		elseif (Class == CLASS_LIGHTWIZARD) then
 			SkillEffect = 3 + Energy / 15
 		elseif (Class == CLASS_LEMURIAMAGE) then
+			SkillEffect = 3 + Energy / 15
+		elseif (Class == CLASS_ILLUSIONKNIGHT) then
 			SkillEffect = 3 + Energy / 15
 		end
 	elseif (Index == TargetIndex) then
@@ -1744,10 +1763,98 @@ function LemuriaMageHeal_Level1(TargetClass, Index, TargetIndex, Energy)
 			SkillEffect = Energy / 10 + 5
 		elseif (TargetClass == CLASS_LEMURIAMAGE) then
 			SkillEffect = Energy / 10 + 5
+		elseif (TargetClass == CLASS_ILLUSIONKNIGHT) then
+			SkillEffect = Energy / 10 + 5
 		end
 	elseif (Index == TargetIndex) then
 		SkillEffect = Energy / 10 + 5
 	end
 	
 	return SkillEffect
+end
+
+-- SkillID: 877, Charge Slash Strengthener
+function IllusionKnightChargeSlash_MasterLevel1_Calc(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
+	local OutDamage = 0
+	
+	if (BarrageCount == 1) then
+		OutDamage = (InDamage * (200 + (Strength / 30) + (Dexterity / 30))) / 100;
+	elseif (BarrageCount == 2) then
+		OutDamage = (InDamage * (200 + (Strength / 30) + (Dexterity / 30))) / 100;
+	end
+	
+	return OutDamage
+end
+
+-- SkillID: 878, Charge Slash Mastery
+function IllusionKnightChargeSlash_MasterLevel2_Calc(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
+	local OutDamage = 0
+	
+	if (BarrageCount == 1) then
+		OutDamage = (InDamage * (200 + (Strength / 30) + (Dexterity / 30))) / 100;
+	elseif (BarrageCount == 2) then
+		OutDamage = (InDamage * (200 + (Strength / 30) + (Dexterity / 30))) / 100;
+	end
+
+	return OutDamage
+end
+
+-- SkillID: 879, Wind Glaive Strengthener
+function IllusionKnightWindGlaive_MasterLevel1_Calc(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
+	local OutDamage = 0
+	
+	if (BarrageCount == 1) then
+		OutDamage = (InDamage * (200 + (Strength / 30) + (Dexterity / 30))) / 100;
+	elseif (BarrageCount == 2) then
+		OutDamage = (InDamage * (200 + (Strength / 30) + (Dexterity / 30))) / 100;
+	elseif (BarrageCount == 3) then
+		OutDamage = (InDamage * (200 + (Strength / 30) + (Dexterity / 30))) / 100;
+	end
+
+	return OutDamage
+end
+
+-- SkillID: 880, Wind Glaive Mastery
+function IllusionKnightWindGlaive_MasterLevel2_Calc(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
+	local OutDamage = 0
+	
+	if (BarrageCount == 1) then
+		OutDamage = (InDamage * (200 + (Strength / 30) + (Dexterity / 30))) / 100;
+	elseif (BarrageCount == 2) then
+		OutDamage = (InDamage * (200 + (Strength / 30) + (Dexterity / 30))) / 100;
+	elseif (BarrageCount == 3) then
+		OutDamage = (InDamage * (200 + (Strength / 30) + (Dexterity / 30))) / 100;
+	end
+
+	return OutDamage
+end
+
+-- SkillID: 881, Blade Storm Strengthener
+function IllusionKnightBladeStorm_MasterLevel2_Calc(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
+	local OutDamage = 0
+	
+	if (BarrageCount == 1) then
+		OutDamage = (InDamage * (200 + (Strength / 30) + (Dexterity / 30))) / 100;
+	elseif (BarrageCount == 2) then
+		OutDamage = (InDamage * (200 + (Strength / 30) + (Dexterity / 30))) / 100;
+	elseif (BarrageCount == 3) then
+		OutDamage = (InDamage * (200 + (Strength / 30) + (Dexterity / 30))) / 100;
+	end
+
+	return OutDamage
+end
+
+-- SkillID: 882, Blade Storm Mastery
+function IllusionKnightBladeStorm_MasterLevel1_Calc(InDamage, Strength, Dexterity, Vitality, Energy, BarrageCount)
+	local OutDamage = 0
+	
+	if (BarrageCount == 1) then
+		OutDamage = (InDamage * (200 + (Strength / 30) + (Dexterity / 30))) / 100;
+	elseif (BarrageCount == 2) then
+		OutDamage = (InDamage * (200 + (Strength / 30) + (Dexterity / 30))) / 100;
+	elseif (BarrageCount == 3) then
+		OutDamage = (InDamage * (200 + (Strength / 30) + (Dexterity / 30))) / 100;
+	end
+
+	return OutDamage
 end

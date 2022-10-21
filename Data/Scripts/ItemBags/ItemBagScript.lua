@@ -1,7 +1,7 @@
 -- // ============================================================
 -- // == INTERNATIONAL GAMING CENTER NETWORK
 -- // == www.igcn.mu
--- // == (C) 2019 IGC-Network (R)
+-- // == (C) 2022 IGC-Network (R)
 -- // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -- // == File is a part of IGCN Group MuOnline Server files.
 -- // ============================================================
@@ -428,6 +428,20 @@ function LoadItemBag() -- Bags Load
 -- Bags for purpose of Scramble Word event
 	AddItemBag(BAG_EVENT, 400,0, 'Event_ScrambleWord_Level_1')
 	AddItemBag(BAG_EVENT, 401,0, 'Event_ScrambleWord_Level_2')
+	
+-- Bags for purpose of Hide and Seek event
+	AddItemBag(BAG_EVENT, 500,0, 'Event_HideAndSeek_Round_1')
+	AddItemBag(BAG_EVENT, 501,0, 'Event_HideAndSeek_Round_2')
+	AddItemBag(BAG_EVENT, 502,0, 'Event_HideAndSeek_Round_3')
+	
+-- Bags for purpose of Raffle event
+	AddItemBag(BAG_EVENT, 600,0, 'Event_Raffle_Winner')
+	AddItemBag(BAG_EVENT, 601,0, 'Event_Raffle_Lotto_3')
+	AddItemBag(BAG_EVENT, 602,0, 'Event_Raffle_Lotto_2')
+	AddItemBag(BAG_EVENT, 603,0, 'Event_Raffle_Lotto_1')
+	AddItemBag(BAG_EVENT, 611,0, 'Event_Raffle_HitOrder_3')
+	AddItemBag(BAG_EVENT, 612,0, 'Event_Raffle_HitOrder_2')
+	AddItemBag(BAG_EVENT, 613,0, 'Event_Raffle_HitOrder_1')
 end
 
 -- ### /1/ Drop Item (using Item Bag Structure) ### --

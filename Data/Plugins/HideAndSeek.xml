@@ -68,7 +68,7 @@
 // STRICTLY NO COMMENTS INSIDE TAGS
 -->
 
-<HideAndSeek Enabled="0" FireWorks="1" MaxRounds="3">
+<HideAndSeek Enable="0" FireWorks="1" MaxRounds="3">
 	<ActiveDay Sun="1" Mon="1" Tue="1" Wed="1" Thu="1" Fri="1" Sat="1" />
 	
 	<Schedule NextRoundTime="1" EndTime="1">

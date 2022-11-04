@@ -39,8 +39,12 @@
 //
 // ### MonsterGroupRegenSystem::MonsterSettings::Group::Monster ###
 //	Index: Index of a monster belonging to the group, refer to MonsterList.xml
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ Boss Monster must be defined in first row of the section
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //	MoveRange: Distance in tiles of how far the monsters can move from initial location after spawn
-//	SpawnType: Determines relation to BossMonsterIndex of specific group, if set to higher than 0 the monsters will be treated as minions and spawned around the boss. Value specified in SpawnType will be used as distance the monsters will be spawned from the boss
+//	SpawnType: Determines relation to BossMonsterIndex of specific group, if set to higher than 0 the monsters will be treated as minions and spawned around the boss.
+//			   Value specified in SpawnType will be used as distance the monsters will be spawned from the boss. Boss monsters should always be set with value 0
 //	Count: Count of monsters of specified type to spawn
 //	OverrideDefaultSettings: Determines whether to use monster attributes from MonsterList.xml or override them with attributes defined from this file, 0/1
 //	EventID: ID of event item bag type defined in ItemBagScript.lua
@@ -91,8 +95,8 @@
  
 	<MonsterSettings>
 		<Group Index="0">
-			<Monster Index="560" MoveRange="10" SpawnType="0" Count="7" OverrideDefaultSettings="1" EventID="151" HP="150000" DamageMin="100" DamageMax="150" Defense="150" AttackRate="1000" DefenseRate="1000" SendKillNotice="1" KillNotice="[MEDUSA] %s killed Medusa assistant! [%d] of [%d]" />
 			<Monster Index="561" MoveRange="10" SpawnType="0" Count="1" OverrideDefaultSettings="1" EventID="150" HP="15000000" DamageMin="1000" DamageMax="1500" Defense="550" AttackRate="2000" DefenseRate="2000" SendKillNotice="1" KillNotice="[MEDUSA] %s killed Medusa! [%d] of [%d]" />
+			<Monster Index="560" MoveRange="10" SpawnType="0" Count="7" OverrideDefaultSettings="1" EventID="151" HP="150000" DamageMin="100" DamageMax="150" Defense="150" AttackRate="1000" DefenseRate="1000" SendKillNotice="1" KillNotice="[MEDUSA] %s killed Medusa assistant! [%d] of [%d]" />
 		</Group>
 	</MonsterSettings>
  

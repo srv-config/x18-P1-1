@@ -142,10 +142,10 @@
 	<!-- Devil Square 7 -->
 		<Square Level="6" MonsterIndex="845" SpawnStartTime="0" SpawnEndTime="7" Name="Scorched Warrior" />
 		<Square Level="6" MonsterIndex="771" SpawnStartTime="0" SpawnEndTime="7" Name="Deep Dungeon Cyclops" />
-		<Square Level="6" MonsterIndex="846" SpawnStartTime="0" SpawnEndTime="7" Name="Scorched Assasin" />
-		<Square Level="6" MonsterIndex="777" SpawnStartTime="0" SpawnEndTime="7" Name="Deep Dungeon Dark Knight" />
-		<Square Level="6" MonsterIndex="779" SpawnStartTime="0" SpawnEndTime="7" Name="Blood Soldier" />
-		<Square Level="6" MonsterIndex="854" SpawnStartTime="0" SpawnEndTime="7" Name="Scorched Wizard" />
+		<Square Level="6" MonsterIndex="846" SpawnStartTime="5" SpawnEndTime="14" Name="Scorched Assasin" />
+		<Square Level="6" MonsterIndex="777" SpawnStartTime="5" SpawnEndTime="14" Name="Deep Dungeon Dark Knight" />
+		<Square Level="6" MonsterIndex="779" SpawnStartTime="12" SpawnEndTime="20" Name="Blood Soldier" />
+		<Square Level="6" MonsterIndex="854" SpawnStartTime="12" SpawnEndTime="20" Name="Scorched Wizard" />
 	</MonsterAppearanceSettings>
 
 	<BossAppearanceSettings>
@@ -162,35 +162,35 @@
 		<Square Level="1" MonsterIndex="267" SpawnTime="15" StartX="121" StartY="152" EndX="151" EndY="184" Name="Illusion of Kundun 5" />
 		<Square Level="1" MonsterIndex="267" SpawnTime="15" StartX="121" StartY="152" EndX="151" EndY="184" Name="Illusion of Kundun 5" />
 	<!-- Devil Square 3 -->
-		<Square Level="2" MonsterIndex="641" SpawnTime="15" StartX="54" StartY="138" EndX="79" EndY="173" Name="Cursed Muff" />
-		<Square Level="2" MonsterIndex="641" SpawnTime="15" StartX="54" StartY="138" EndX="79" EndY="173" Name="Cursed Muff" />
-		<Square Level="2" MonsterIndex="641" SpawnTime="15" StartX="54" StartY="138" EndX="79" EndY="173" Name="Cursed Muff" />
-		<Square Level="2" MonsterIndex="641" SpawnTime="15" StartX="54" StartY="138" EndX="79" EndY="173" Name="Cursed Muff" />
-		<Square Level="2" MonsterIndex="641" SpawnTime="15" StartX="54" StartY="138" EndX="79" EndY="173" Name="Cursed Muff" />
+		<Square Level="2" MonsterIndex="641" SpawnTime="15" StartX="49" StartY="138" EndX="79" EndY="173" Name="Cursed Muff" />
+		<Square Level="2" MonsterIndex="641" SpawnTime="15" StartX="49" StartY="138" EndX="79" EndY="173" Name="Cursed Muff" />
+		<Square Level="2" MonsterIndex="641" SpawnTime="15" StartX="49" StartY="138" EndX="79" EndY="173" Name="Cursed Muff" />
+		<Square Level="2" MonsterIndex="641" SpawnTime="15" StartX="49" StartY="138" EndX="79" EndY="173" Name="Cursed Muff" />
+		<Square Level="2" MonsterIndex="641" SpawnTime="15" StartX="49" StartY="138" EndX="79" EndY="173" Name="Cursed Muff" />
 	<!-- Devil Square 4 -->
-		<Square Level="3" MonsterIndex="781" SpawnTime="15" StartX="49" StartY="138" EndX="79" EndY="173" Name="Balram" />
-		<Square Level="3" MonsterIndex="781" SpawnTime="15" StartX="49" StartY="138" EndX="79" EndY="173" Name="Balram" />
-		<Square Level="3" MonsterIndex="781" SpawnTime="15" StartX="49" StartY="138" EndX="79" EndY="173" Name="Balram" />
-		<Square Level="3" MonsterIndex="781" SpawnTime="15" StartX="49" StartY="138" EndX="79" EndY="173" Name="Balram" />
-		<Square Level="3" MonsterIndex="781" SpawnTime="15" StartX="49" StartY="138" EndX="79" EndY="173" Name="Balram" />
+		<Square Level="3" MonsterIndex="781" SpawnTime="15" StartX="53" StartY="74" EndX="83" EndY="109" Name="Balram" />
+		<Square Level="3" MonsterIndex="781" SpawnTime="15" StartX="53" StartY="74" EndX="83" EndY="109" Name="Balram" />
+		<Square Level="3" MonsterIndex="781" SpawnTime="15" StartX="53" StartY="74" EndX="83" EndY="109" Name="Balram" />
+		<Square Level="3" MonsterIndex="781" SpawnTime="15" StartX="53" StartY="74" EndX="83" EndY="109" Name="Balram" />
+		<Square Level="3" MonsterIndex="781" SpawnTime="15" StartX="53" StartY="74" EndX="83" EndY="109" Name="Balram" />
 	<!-- Devil Square 5 -->
-		<Square Level="4" MonsterIndex="790" SpawnTime="15" StartX="122" StartY="152" EndX="151" EndY="184" Name="Swamp Monster" />
-		<Square Level="4" MonsterIndex="790" SpawnTime="15" StartX="122" StartY="152" EndX="151" EndY="184" Name="Swamp Monster" />
-		<Square Level="4" MonsterIndex="790" SpawnTime="15" StartX="122" StartY="152" EndX="151" EndY="184" Name="Swamp Monster" />
-		<Square Level="4" MonsterIndex="790" SpawnTime="15" StartX="122" StartY="152" EndX="151" EndY="184" Name="Swamp Monster" />
-		<Square Level="4" MonsterIndex="790" SpawnTime="15" StartX="122" StartY="152" EndX="151" EndY="184" Name="Swamp Monster" />
+		<Square Level="4" MonsterIndex="790" SpawnTime="15" StartX="120" StartY="80" EndX="150" EndY="115" Name="Swamp Monster" />
+		<Square Level="4" MonsterIndex="790" SpawnTime="15" StartX="120" StartY="80" EndX="150" EndY="115" Name="Swamp Monster" />
+		<Square Level="4" MonsterIndex="790" SpawnTime="15" StartX="120" StartY="80" EndX="150" EndY="115" Name="Swamp Monster" />
+		<Square Level="4" MonsterIndex="790" SpawnTime="15" StartX="120" StartY="80" EndX="150" EndY="115" Name="Swamp Monster" />
+		<Square Level="4" MonsterIndex="790" SpawnTime="15" StartX="120" StartY="80" EndX="150" EndY="115" Name="Swamp Monster" />
 	<!-- Devil Square 6 -->
-		<Square Level="5" MonsterIndex="778" SpawnTime="15" StartX="53" StartY="74" EndX="83" EndY="109" Name="Deep Dungeon Gorgon" />
-		<Square Level="5" MonsterIndex="778" SpawnTime="15" StartX="53" StartY="74" EndX="83" EndY="109" Name="Deep Dungeon Gorgon" />
-		<Square Level="5" MonsterIndex="778" SpawnTime="15" StartX="53" StartY="74" EndX="83" EndY="109" Name="Deep Dungeon Gorgon" />
-		<Square Level="5" MonsterIndex="778" SpawnTime="15" StartX="53" StartY="74" EndX="83" EndY="109" Name="Deep Dungeon Gorgon" />
-		<Square Level="5" MonsterIndex="778" SpawnTime="15" StartX="53" StartY="74" EndX="83" EndY="109" Name="Deep Dungeon Gorgon" />
+		<Square Level="5" MonsterIndex="778" SpawnTime="15" StartX="122" StartY="152" EndX="151" EndY="184" Name="Deep Dungeon Gorgon" />
+		<Square Level="5" MonsterIndex="778" SpawnTime="15" StartX="122" StartY="152" EndX="151" EndY="184" Name="Deep Dungeon Gorgon" />
+		<Square Level="5" MonsterIndex="778" SpawnTime="15" StartX="122" StartY="152" EndX="151" EndY="184" Name="Deep Dungeon Gorgon" />
+		<Square Level="5" MonsterIndex="778" SpawnTime="15" StartX="122" StartY="152" EndX="151" EndY="184" Name="Deep Dungeon Gorgon" />
+		<Square Level="5" MonsterIndex="778" SpawnTime="15" StartX="122" StartY="152" EndX="151" EndY="184" Name="Deep Dungeon Gorgon" />
 	<!-- Devil Square 7 -->
-		<Square Level="6" MonsterIndex="816" SpawnTime="15" StartX="120" StartY="80" EndX="150" EndY="115" Name="Dead Porter" />
-		<Square Level="6" MonsterIndex="816" SpawnTime="15" StartX="120" StartY="80" EndX="150" EndY="115" Name="Dead Porter" />
-		<Square Level="6" MonsterIndex="816" SpawnTime="15" StartX="120" StartY="80" EndX="150" EndY="115" Name="Dead Porter" />
-		<Square Level="6" MonsterIndex="816" SpawnTime="15" StartX="120" StartY="80" EndX="150" EndY="115" Name="Dead Porter" />
-		<Square Level="6" MonsterIndex="816" SpawnTime="15" StartX="120" StartY="80" EndX="150" EndY="115" Name="Dead Porter" />
+		<Square Level="6" MonsterIndex="816" SpawnTime="15" StartX="50" StartY="138" EndX="79" EndY="173" Name="Dead Porter" />
+		<Square Level="6" MonsterIndex="816" SpawnTime="15" StartX="50" StartY="138" EndX="79" EndY="173" Name="Dead Porter" />
+		<Square Level="6" MonsterIndex="816" SpawnTime="15" StartX="50" StartY="138" EndX="79" EndY="173" Name="Dead Porter" />
+		<Square Level="6" MonsterIndex="816" SpawnTime="15" StartX="50" StartY="138" EndX="79" EndY="173" Name="Dead Porter" />
+		<Square Level="6" MonsterIndex="816" SpawnTime="15" StartX="50" StartY="138" EndX="79" EndY="173" Name="Dead Porter" />
 	</BossAppearanceSettings>
 
 	<RankingBonusSettings>

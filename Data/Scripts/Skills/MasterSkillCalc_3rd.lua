@@ -1237,7 +1237,7 @@ end
 -- SkillID: 779, Sword Inertia Strengthener - (Slayer, Royal Slayer, Master Slayer, Slaughterer)
 function SlayerSwordInertia_MasterLevel1_Calc(InDamage, Strength, Dexterity)
 	local OutDamage = InDamage * ((Strength / 8) + (Dexterity / 28) + 120) / 100
-	OutDamage = OutDamage * 0.16
+	OutDamage = OutDamage
 	
 	return OutDamage
 end
@@ -1245,7 +1245,7 @@ end
 -- SkillID: 780, Sword Inertia Mastery - (Slayer, Royal Slayer, Master Slayer, Slaughterer)
 function SlayerSwordInertia_MasterLevel2_Calc(InDamage, Strength, Dexterity)
 	local OutDamage = InDamage * ((Strength / 8) + (Dexterity / 28) + 120) / 100
-	OutDamage = OutDamage * 0.16
+	OutDamage = OutDamage
 	
 	return OutDamage
 end

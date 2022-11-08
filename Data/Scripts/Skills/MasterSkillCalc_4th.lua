@@ -306,7 +306,7 @@ end
 
 function SwordInertia_4thEnchant_Slayer(InDamage, Strength, Dexterity)
 	local OutDamage = InDamage * ((Strength / 8) + (Dexterity / 28) + 120) / 100
-	OutDamage = OutDamage * 0.16
+	OutDamage = OutDamage
 	
 	return OutDamage
 end	

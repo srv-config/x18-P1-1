@@ -1079,7 +1079,7 @@ end
 -- SkillID: 292, Sword Inertia
 function SlayerSwordInertiaCalc(InDamage, Strength, Dexterity)
 	local OutDamage = InDamage * ((Strength / 8) + (Dexterity / 28) + 120) / 100
-	OutDamage = OutDamage * 0.16
+	OutDamage = OutDamage
 	
 	return OutDamage
 end

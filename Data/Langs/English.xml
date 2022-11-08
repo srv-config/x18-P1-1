@@ -840,6 +840,7 @@
 		<Msg ID="814" Text="Decreased %d Stat points." />
 		<Msg ID="815" Text="Jewel upgrade failed!" />
 		<Msg ID="816" Text="You need to be level %d and Min/Max reset of %d/%d to deal with me." />
+		<Msg ID="817" Text="You need an invitation to enter Illusion Temple." />
 	</Message>
 	<Map>
 		<Msg ID="0" Text="Lorencia" />

@@ -15,6 +15,7 @@
 //	AlternativeMode: If enabled the party is being formed from users that entered the event, right after it starts.
 //	The MinUserInParty setting does not take a place then, 0/1
 //	SpawnMonster: If enabled, monsters will continue to spawn during the event, 0/1
+//	RequireInvitation: If set to 1, an invitation (13,51) will be required to enter Illusion Temple, applied to AlternativeMode mode only, 0/1
 //
 // ### IllusionTempleRenewal::Time ###
 //	StartIn: Announcement appearance, time to start the event (minutes)
@@ -34,7 +35,7 @@
 // STRICTLY NO COMMENTS INSIDE TAGS
 -->
 
-<IllusionTempleRenewal Enable="1" MinUserInParty="5" SaveRankingPoint="1" AlternativeMode="0" SpawnMonster="0">
+<IllusionTempleRenewal Enable="1" MinUserInParty="5" SaveRankingPoint="1" AlternativeMode="0" SpawnMonster="0" RequireInvitation="0">
 	<Time StartIn="5" WaitingArea="1" Duration="15" TownSpawn="1" />
 
 	<EventSchedule>

@@ -35,6 +35,7 @@
 //~~ Enablin that option will auto force moving to character selection screen after reset
 //~~ Stat points for all passed milestones will be calculated and returned as free Level Up Points
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
 //	SaveOldStatPoint: Determines whether to preserve pre-reset free stat points, 0/1
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //~~ Option active only if ResetStats enabled.
@@ -61,6 +62,14 @@
 //	Cost: Cost of the single reset, max value: 200000000
 //	MultiplyCostPerResets: Multiply cost by number of resets, 0/1
 //	MaxCost: Maximum cost of reset, if MAX is used as value then attribute is set to 200000000
+//	MaxFruitPointReset:
+//		~ -1: Do not reset
+//		~ 0: Reset always
+//		~ Greater than 0, number (sum) of used fruit points add/dec to reset the fruits
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//-- If fruits are set to reset at any condition the fruits points are deducted when stat reset is enabled
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
 //	MilestoneID: A milestone reset rule ID to execute upon reset, -1 if do milestone aplies to specific range, see MilestonesRewardList section
 //	RewardSetID: A regular reset rule ID to execute upon reset, -1 if do milestone aplies to specific range, see RegResetsRewardList section
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -98,21 +107,21 @@
 //
 -->
 
-<ResetSystem Enable="1">
+<ResetSystem Enable="0">
 <Requirements MinLevelMode="0" MinLevel="400" MaxResets="100" MinVipType="-1" />
 <Settings RemoveEquipment="1" RemoveFromParty="1" EnableMuHelper="0" ClearBuffs="1" ResetStats="0" SaveOldStatPoint="0" ResetMasterLevel="0" MoveToCharSelectWindow="0" StayOnPosition="0" MaxResetPoints="0" LevelAfterReset="1" MasterLevelAfterReset="0" />
 
 	<DynamicResetRangeList> <!-- First rule that matches player requirements will be applied, therefore order of entries matters -->
-		<Range MinReset="0" MaxReset="10" CoinType="0" Cost="5000000" MultiplyCostPerResets="1" MaxCost="MAX" MilestoneID="0" RewardSetID="0" />
-		<Range MinReset="11" MaxReset="20" CoinType="0" Cost="5000000" MultiplyCostPerResets="1" MaxCost="MAX" MilestoneID="0" RewardSetID="0" />
-		<Range MinReset="21" MaxReset="30" CoinType="0" Cost="5000000" MultiplyCostPerResets="1" MaxCost="MAX" MilestoneID="1" RewardSetID="1" />
-		<Range MinReset="31" MaxReset="40" CoinType="0" Cost="5000000" MultiplyCostPerResets="1" MaxCost="MAX" MilestoneID="1" RewardSetID="1" />
-		<Range MinReset="41" MaxReset="50" CoinType="0" Cost="5000000" MultiplyCostPerResets="1" MaxCost="MAX" MilestoneID="2" RewardSetID="2" />
-		<Range MinReset="51" MaxReset="60" CoinType="0" Cost="5000000" MultiplyCostPerResets="1" MaxCost="MAX" MilestoneID="2" RewardSetID="2" />
-		<Range MinReset="61" MaxReset="70" CoinType="0" Cost="5000000" MultiplyCostPerResets="1" MaxCost="MAX" MilestoneID="3" RewardSetID="3" />
-		<Range MinReset="71" MaxReset="80" CoinType="0" Cost="5000000" MultiplyCostPerResets="1" MaxCost="MAX" MilestoneID="3" RewardSetID="3" />
-		<Range MinReset="81" MaxReset="90" CoinType="0" Cost="5000000" MultiplyCostPerResets="1" MaxCost="MAX" MilestoneID="4" RewardSetID="4" />
-		<Range MinReset="91" MaxReset="MAX" CoinType="0" Cost="5000000" MultiplyCostPerResets="1" MaxCost="MAX" MilestoneID="4" RewardSetID="4" />
+		<Range MinReset="0" MaxReset="10" CoinType="0" Cost="5000000" MultiplyCostPerResets="1" MaxCost="MAX" MaxFruitPointReset="0" MilestoneID="0" RewardSetID="0" />
+		<Range MinReset="11" MaxReset="20" CoinType="0" Cost="5000000" MultiplyCostPerResets="1" MaxCost="MAX" MaxFruitPointReset="0" MilestoneID="0" RewardSetID="0" />
+		<Range MinReset="21" MaxReset="30" CoinType="0" Cost="5000000" MultiplyCostPerResets="1" MaxCost="MAX" MaxFruitPointReset="0" MilestoneID="1" RewardSetID="1" />
+		<Range MinReset="31" MaxReset="40" CoinType="0" Cost="5000000" MultiplyCostPerResets="1" MaxCost="MAX" MaxFruitPointReset="0" MilestoneID="1" RewardSetID="1" />
+		<Range MinReset="41" MaxReset="50" CoinType="0" Cost="5000000" MultiplyCostPerResets="1" MaxCost="MAX" MaxFruitPointReset="0" MilestoneID="2" RewardSetID="2" />
+		<Range MinReset="51" MaxReset="60" CoinType="0" Cost="5000000" MultiplyCostPerResets="1" MaxCost="MAX" MaxFruitPointReset="0" MilestoneID="2" RewardSetID="2" />
+		<Range MinReset="61" MaxReset="70" CoinType="0" Cost="5000000" MultiplyCostPerResets="1" MaxCost="MAX" MaxFruitPointReset="0" MilestoneID="3" RewardSetID="3" />
+		<Range MinReset="71" MaxReset="80" CoinType="0" Cost="5000000" MultiplyCostPerResets="1" MaxCost="MAX" MaxFruitPointReset="0" MilestoneID="3" RewardSetID="3" />
+		<Range MinReset="81" MaxReset="90" CoinType="0" Cost="5000000" MultiplyCostPerResets="1" MaxCost="MAX" MaxFruitPointReset="0" MilestoneID="4" RewardSetID="4" />
+		<Range MinReset="91" MaxReset="MAX" CoinType="0" Cost="5000000" MultiplyCostPerResets="1" MaxCost="MAX" MaxFruitPointReset="0" MilestoneID="4" RewardSetID="4" />
 	</DynamicResetRangeList>
 	
 	<RegResetsRewardList> <!-- Item issued to Gremory Case -->

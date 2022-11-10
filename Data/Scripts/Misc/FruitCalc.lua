@@ -63,5 +63,5 @@ function FruitMinusStatCalc(Class, PrevMinusStat, Level)
 		end
 	end
 	
-	return MinusStatt -- The right side value (y) of the display in Game Client, x/y where x are actual points
+	return MinusStat -- The right side value (y) of the display in Game Client, x/y where x are actual points
 end

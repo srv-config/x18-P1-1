@@ -65,10 +65,10 @@
 //	MaxFruitPointReset:
 //		~ -1: Do not reset
 //		~ 0: Reset always
-//		~ Greater than 0, number (sum) of used fruit points add/dec to reset the fruits
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-//-- If fruits are set to reset at any condition the fruits points are deducted when stat reset is enabled
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//		~ Greater than 0, number of "create" fruit points to reset the fruits
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//-- If fruits are set to reset along with reset stats enabled, the create fruit points are deducted upon reset to avoid incremental accumulation
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
 //	MilestoneID: A milestone reset rule ID to execute upon reset, -1 if do milestone aplies to specific range, see MilestonesRewardList section
 //	RewardSetID: A regular reset rule ID to execute upon reset, -1 if do milestone aplies to specific range, see RegResetsRewardList section

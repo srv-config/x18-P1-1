@@ -1507,3 +1507,13 @@ function IllusionKnightBladeStorm(InDamage, Strength, Dexterity, Vitality, Energ
 
 	return OutDamage
 end
+
+-- SkillID: 2031, Illusion Avatar, formula controls base Life and Damage before mastery improvments
+function IllusionKnightAvatarCalc(InDamageMin, InDamageMax, PlayerLevel, PlayerMasterLevel, PlayerMaxLife)
+	local PlayerTotalLevel = PlayerLevel + PlayerMasterLevel
+	local OutDamageMin = InDamageMin * 1.5
+	local OutDamageMax = InDamageMax * 2
+	local OutLife = (PlayerTotalLevel / 20) * PlayerMaxLife
+	
+	return OutDamageMin, OutDamageMax, OutLife
+end

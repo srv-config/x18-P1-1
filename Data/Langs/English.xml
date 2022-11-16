@@ -842,6 +842,7 @@
 		<Msg ID="816" Text="You need to be level %d and Min/Max reset of %d/%d to deal with me." />
 		<Msg ID="817" Text="You need an invitation to enter Illusion Temple." />
 		<Msg ID="818" Text="Illusion Knight" />
+		<Msg ID="819" Text="Your VIP level is not enough for this channel." />
 	</Message>
 	<Map>
 		<Msg ID="0" Text="Lorencia" />
